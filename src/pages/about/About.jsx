@@ -1,5 +1,5 @@
-import Info from "../../components/info";
-import Stats from "../../components/stats";
+import Info from "../../components/Info";
+import Stats from "../../components/Stats";
 import Cv from "../../pdf/Moaaz-Cv.pdf";
 import { RiDownload2Line } from "react-icons/ri";
 import { skill } from "../../Data";
