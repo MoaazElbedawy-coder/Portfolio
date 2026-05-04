@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import Themes from "./themes/Themes";
-const Applayout = () => {
+const AppLayout = () => {
   return (
     <>
       <Outlet />
@@ -11,4 +11,4 @@ const Applayout = () => {
   );
 };
 
-export default Applayout;
+export default AppLayout;
