@@ -145,6 +145,14 @@ npm run dev */
     color: var(--text-color);
 }
 
+.portfolio-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+
 .link-icon {
     font-size: 1.25rem;
 }

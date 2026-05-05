@@ -1,5 +1,6 @@
 import { portfolio } from "../../Data";
 import { RiLink } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -10,7 +11,7 @@ const Portfolio = () => {
     </h2> 
 {/* npm run dev */}
     <div className="portfolio-container container grid">
-      {portfolio.map(({id, img, title, description, skills, link}) => {
+      {portfolio.map(({id, img, title, description, skills, link, github}) => {
         return (
           <article className="portfolio-card" key={id}>
             <a href={link} className="portfolio-img-wrapper">
@@ -26,10 +27,18 @@ const Portfolio = () => {
               )
             })}
           </div>
-          <a href={link} className="portfolio-link">
-            <RiLink className="link-icon"/>
-            Visit Project
-          </a>
+          <div className="portfolio-links">
+            <a href={link} className="portfolio-link">
+              <RiLink className="link-icon"/>
+              Visit Project
+            </a>
+            {github && (
+              <a href={github} target="_blank" rel="noopener noreferrer" className="portfolio-link">
+                <FaGithub className="link-icon"/>
+                GitHub
+              </a>
+            )}
+          </div>
           </article>
         );
       })}

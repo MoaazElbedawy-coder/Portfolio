@@ -277,6 +277,7 @@ export const portfolio = [
     description:'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg4, skillsImg5],
     link: 'https://project-simple-portfolio.netlify.app',
+    github: 'https://github.com/MoaazElbedawy-coder/coffee-website',
   },
 
   {
@@ -287,6 +288,7 @@ export const portfolio = [
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg6, skillsImg7],
     link: '',
+    github: '',
   },
 
   {
@@ -296,6 +298,7 @@ export const portfolio = [
     description:'A light and fun game to boost your memory - guess and remember to achieve the highest score',
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: 'https://memory-guess.netlify.app',
+    github: 'https://github.com/MoaazElbedawy-coder/memory-guess-game',
   },
 
   {
@@ -306,6 +309,7 @@ export const portfolio = [
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg4, skillsImg5],
     link: '',
+    github: '',
   },
 
   {
@@ -317,6 +321,7 @@ export const portfolio = [
     description:'A fun word game where you guess the hidden word letter by letter',
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: 'https://hangman-elbedawy-m.netlify.app',
+    github: 'https://github.com/MoaazElbedawy-coder/hangman-game',
   },
 ];
 
