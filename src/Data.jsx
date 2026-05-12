@@ -33,7 +33,7 @@ export const links = [
     icon: <FaHome className="nav-icon" />,
     path: "/",
   },
-
+    
   {
     name: "About",
     icon: <FaUser className="nav-icon" />,
