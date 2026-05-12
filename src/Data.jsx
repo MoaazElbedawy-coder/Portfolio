@@ -71,7 +71,7 @@ export const personalInfo = [
 
   {
     title: "Nationality : ",
-    description: "Egypation",
+    description: "Egyptian",
   },
 
   {
@@ -81,7 +81,7 @@ export const personalInfo = [
 
   {
     title: "Address : ",
-    description: "Egypt,   Kafr-Elshikh",
+    description: "Egypt, Kafr-Elshikh",
   },
 
   {
@@ -95,7 +95,7 @@ export const personalInfo = [
   // },
 
   {
-    title: "Langages : ",
+    title: "Languages : ",
     description: "Arabic, English",
   },
 ];
@@ -210,7 +210,7 @@ export const resume = [
     category: "experience",
     icon: <RiBriefcase4Fill />,
     year: "2026 - Present",
-    title: "Web Developer [Mearn ] <span> Freelance </span>",
+    title: "Web Developer [MERN] <span> Freelance </span>",
     desc: `Developed responsive websites using React and Tailwind CSS
            Converted Figma designs into functional web pages
            Improved website performance and loading speed`
@@ -222,7 +222,7 @@ export const resume = [
     icon: <RiBriefcase4Fill />,
     year: "2025",
     title: "Web Design Course <span> National Telecommunication Institute (NTI) </span>",
-    desc:  `Learned HTML, CSS, JavaScript, and Bootstrap for modern web development
+    desc: `Learned HTML, CSS, JavaScript, and Bootstrap for modern web development
             Built responsive, mobile-friendly, and user-focused website layouts`,
   },
 
@@ -232,7 +232,7 @@ export const resume = [
     icon: <RiBriefcase4Fill />,
     year: "2025",
     title: "UI/UX Designer <span> Learn online </span>",
-    desc:  `Designed user interfaces using Figma Created user flows and wireframes
+    desc: `Designed user interfaces using Figma Created user flows and wireframes
             Enhanced user experience and usability`
   },
 
@@ -242,9 +242,9 @@ export const resume = [
     icon: <RiGraduationCapFill />,
     year: "2025",
     title: "Engineering Degree <span> Cairo University </span>",
-    desc:  `Graduation Project: Animal Disease Analysis Network (ADAN)
+    desc: `Graduation Project: Animal Disease Analysis Network (ADAN)
             Developed a web-based platform for detecting and monitoring animal
-            diseases Enabled users to report cases and analyze disease spread patterns`              
+            diseases Enabled users to report cases and analyze disease spread patterns`
   },
 
   {
@@ -264,7 +264,7 @@ export const resume = [
     icon: <RiGraduationCapFill />,
     year: "2023",
     title: "Programming Journey <span> Self Learning </span>",
-    desc:  `Started learning programming in 2022 and continuously improving
+    desc: `Started learning programming in 2022 and continuously improving
             my skills through courses, projects, and hands-on practice`
   },
 ];
@@ -274,7 +274,7 @@ export const portfolio = [
     id: 1,
     img: projectImg1,
     title: 'Coffee Website',
-    description:'Short description of the project that was carried out in this portfolio.',
+    description: 'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg4, skillsImg5],
     link: 'https://project-simple-portfolio.netlify.app',
     github: 'https://github.com/MoaazElbedawy-coder/coffee-website',
@@ -295,7 +295,7 @@ export const portfolio = [
     id: 3,
     img: projectImg3,
     title: 'Memory Guess Game',
-    description:'A light and fun game to boost your memory - guess and remember to achieve the highest score',
+    description: 'A light and fun game to boost your memory - guess and remember to achieve the highest score',
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: 'https://memory-guess.netlify.app',
     github: 'https://github.com/MoaazElbedawy-coder/memory-guess-game',
@@ -314,11 +314,11 @@ export const portfolio = [
 
   {
     id: 5,
-    
+
     img: projectImg5,
     title: 'Hangman Game',
-    
-    description:'A fun word game where you guess the hidden word letter by letter',
+
+    description: 'A fun word game where you guess the hidden word letter by letter',
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: 'https://hangman-elbedawy-m.netlify.app',
     github: 'https://github.com/MoaazElbedawy-coder/hangman-game',
